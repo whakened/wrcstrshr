@@ -3,11 +3,15 @@ body {
 }
 .horiz-center {
     margin: auto;
+    text-align: center;
 }
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
+}
+.c0 {
+    background-color: #181925;
 }
 .c1 {
     background-color: #1f2232;
