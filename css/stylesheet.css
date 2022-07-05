@@ -25,3 +25,10 @@ body {
 .text-c5 {
     color: #f5f3f5;
 }
+.large-container {
+    padding: 70px 50px;
+}
+#body {
+    font-family: verdana;
+    padding: 70px 100px;
+}
