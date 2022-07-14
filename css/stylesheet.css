@@ -1,8 +1,8 @@
 body {
     background-color: #333;
     text-align: center;
-    font-family: "Inter", sans-serif;
-    padding: 4.375rem 6.25rem;
+    font-family: 'Inter', sans-serif;
+    padding: 4.375rem 0rem;
 }
 .horiz-center {
     margin: auto;
@@ -32,6 +32,7 @@ body {
 .text-c5 {
     color: #f5f3f5;
     font-weight: 100;
+    font-family: 'Poppins', sans-serif;
 }
 .text-white-bg {
     background-color: #f5f3f5;
@@ -49,25 +50,89 @@ body {
     margin-bottom: 0rem;
     padding-top: 0.313rem;
     padding-bottom: 0.313rem;
+    overflow: hidden;
 }
 .fancy-text {
 	animation: fancyText 5s ease-in-out infinite;
 	background: linear-gradient(-60deg, #bd3ce8, #bd3ce8, #f5f3f5, #bd3ce8, #f5f3f5);
 	background-size: 300%;
-
 	-webkit-background-clip: text;
-		background-clip: text;
+	background-clip: text;
 	-webkit-text-fill-color: transparent;
     font-weight: 500;
 }
 @keyframes fancyText {
-	0% {
-		background-position: 50% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 200% 50%;
-	}
+	0% {background-position: 50% 50%;}
+	50% {background-position: 100% 50%;}
+    100% {background-position: 200% 50%;}
+}
+a {
+	animation: linkText 5s ease-in-out infinite;
+	background: linear-gradient(-60deg, #22aaa1, #22aaa1, #4ce0d2, #22aaa1, #4ce0d2);
+	background-size: 300%;
+    -webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-weight: 800;
+}
+@keyframes linkText {
+	0% {background-position: 50% 50%;}
+	50% {background-position: 100% 50%;}
+    100% {background-position: 200% 50%;}
+}
+.youtube-link {
+	animation: youtubeLink 6s ease-in-out infinite;
+	background: linear-gradient(-60deg, #ff0000, #ff0000, #fff);
+	background-size: 300%;
+    -webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-weight: 500;
+}
+@keyframes youtubeLink {
+	0% {background-position: 50% 50%;}
+	50% {background-position: 100% 50%;}
+	100% {background-position: 200% 50%;}
+}
+.github-link {
+	animation: githubLink 6s ease-in-out infinite;
+	background: linear-gradient(-60deg, #171515, #171515, #fff);
+	background-size: 300%;
+    -webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-weight: 500;
+}
+@keyframes githubLink {
+	0% {background-position: 50% 50%;}
+	50% {background-position: 100% 50%;}
+	100% {background-position: 200% 50%;}
+}
+.twitch-link {
+	animation: twitchLink 6s ease-in-out infinite;
+	background: linear-gradient(-60deg, #6441ae, #6441ae, #fff);
+	background-size: 300%;
+    -webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-weight: 500;
+}
+@keyframes twitchLink {
+	0% {background-position: 50% 50%;}
+	50% {background-position: 100% 50%;}
+	100% {background-position: 200% 50%;}
+}
+.twitter-link {
+	animation: twitterLink 6s ease-in-out infinite;
+	background: linear-gradient(-60deg, #1da1f2, #1da1f2, #fff);
+	background-size: 300%;
+    -webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-weight: 500;
+}
+@keyframes twitterLink {
+	0% {background-position: 50% 50%;}
+	50% {background-position: 100% 50%;}
+	100% {background-position: 200% 50%;}
 }
