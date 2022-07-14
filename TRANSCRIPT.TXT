@@ -1,0 +1,15 @@
+[BEGIN LOG]
+[START 6/16/2066 5:58AM]
+>> "This log is being recorded out of desperation."
+>> "I am stranded in the middle of what seems to be empty space."
+>> "There are no signs of life, no celestial bodies, only remnants of what I assume to be asteroids."
+>> "Their physical properties have yet to be determined, yet they seem to be unnaturally small."
+>> "I have no way of getting one on board safely, nor do I believe I will be able to soon."
+>> "I will be transmitting this on June 16, 2066."
+>> "Location will be provided encoded within the signal."
+>> "SOS."
+[END LOG]
+[END 6/16/2066 5:61AM]
+[TRANSMISSION BEGIN]
+[DURATION - 32s]
+[TRANSMISSION END]
