@@ -1,0 +1,41 @@
+.carrierdiv {
+	display: inline-block;
+	width: 200px;
+	height: 95px;
+	background-color: #999;
+	border: 5px solid #666;
+	border-radius: 10px;
+}
+.stockdiv {
+	text-align: center;
+	width: 200px;
+	height: 95px;
+	color:#333;
+	line-height: 15px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+button {
+	border: 2px inline black;
+	border-radius: 3px;
+	transition: transform 0.25s;
+}	
+button:hover {
+	border: 2px inline black;
+	border-radius: 3px;
+	transition: transform 0.25s;
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+button:active {
+	border: 2px inline black;
+	border-radius: 3px;
+	transition: transform 0.25s;
+	-webkit-transform: scale(0.9);
+	-ms-transform: scale(0.9);
+	transform: scale(0.9);
+	position: relative;
+	background: #ddd;
+}
