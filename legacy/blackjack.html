@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta property="og:title" content="siteweb" />
+		<meta property="og:type" content="gaming" />
+		<meta property="og:description" content="embeds suck" />
+		<title>Hello</title>
+		<style>
+			button {
+				border-radius: 5px;
+			}
+		</style>
+	</head>
+	<body style="font-family:verdana;font-size:12pt;text-align:center;">
+		<a href="https://wrcstrshr.ml/games"><button>Back</button></a>
+		<p>Hello.</p>
+		<p>Here's a game, I guess.</p>
+		<button id="easyButton" onclick="aiLvl = 1;startGame()" style="background-color:#aaffaa;color:#015401;"><sup>(Q)</sup>Easy</button>
+		<button id="normalButton" onclick="aiLvl = 2;startGame()" style="background-color:#f8d800;color:#482800;"><sup>(W)</sup>Medium</button>
+		<button id="hardButton" onclick="aiLvl = 3;startGame()" style="background-color:#fa474b;color:#5f1010"><sup>(E)</sup>Hard</button><br><br>
+		<button disabled id="draw" onclick="funcDraw()"><sup>(A)</sup>Draw</button> <button disabled id="stand" onclick="funcStand()"><sup>(S)</sup>Stand</button>
+		<p id="score">Player: 0 | Computer: 0</p>
+		<p id="determine">Not playing!</p>
+		<button disabled id="play" onclick="playAgain()"><sup>(D)</sup>Play Again</button>
+		<hr>
+		<p style=font-size:11pt;">How to Play</p>
+		<div style="width:50%;margin:auto;font-size:10pt;">The game above is commonly referred to as Blackjack, and is known as a probability game. This game is played usually with 2 to 7 players, however this site is limited to only you and the computer.</div>
+		<br><div style="width:50%;margin:auto;font-size:10pt;">The rules vary wildly from place to place. For here, there are simplified rules for lack of confusion (and also so I can actually code it!). To play, one player begins to draw from a deck of cards. Their goal is to get as close to 21 as possible, without going over. This effect is simulated with a random number from 2 to 11. Aces do not count as 1's.</div>
+		<br><div style="width:50%;margin:auto;font-size:10pt;">When a player feels comfortable with their total, they can choose to stand. This switches over to the other player, and now they draw cards. The only options they have is to try to tie it, or get a higher total if they wish to win.</div>
+		<br><div style="width:50%;margin:auto;font-size:10pt;">If a player goes over the total of 21, they immediately lose. This is known as a "bust". They will also lose if they have a lower total than their opponent.</div>
+		<hr>
+		<br><div style="width:50%;margin:auto;font-size:11pt;">Basic Strategy</div>
+		<br><div style="width:50%;margin:auto;font-size:10pt;">When you reach the total of 15, there is roughly a 50% chance of busting. This percent obviously gets higher in conjunction with the total. It's most common to stop at 18, 19, or 20.</div>
+		<br><div style="width:50%;margin:auto;font-size:10pt;">When a player reaches 20, at least with these rules, it is impossible to get 21. Therefore, it is only logical to stand. If you are the second player and the opponent reaches anywhere above 18, you are safer to try to tie the game rather than lose.<div> 
+		<br><br><br><br><br><br><br><br><br><br><br>
+		<button id="riggedButton" onclick="aiLvl = 4;startGame()" style="background-color:#fefefe;color:#f8f8f8;border-color:#fff;border:solid;">Rigged</button>
+		<script src="https://wrcstrshr.netlify.app/legacy/gscripts/blackjackjs.js"></script>
+	</body>
+</html>
+
+
+
+
