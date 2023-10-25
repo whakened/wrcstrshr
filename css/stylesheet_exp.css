@@ -1,0 +1,21 @@
+body {
+    padding: 5vh 10vw;
+    background-color: #06001B; 
+}
+div {
+    border-radius: 1vw;
+    background-color: #311F54;
+    padding: 1vh 1vw;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+}
+.header {
+    text-align: center;
+    letter-spacing: 1vw;
+    font-size: 4vw;
+    color: #06001B;
+}
+.header > p {
+    background-color: #fff;
+    margin: 0vh 5vw;
+}
