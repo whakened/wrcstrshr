@@ -9,14 +9,19 @@ div {
     font-family: 'Inter', sans-serif;
     color: #fff;
     margin: auto;
+    font-size: 1vw;
 }
 .header {
     text-align: center;
     letter-spacing: 1vw;
-    font-size: 3vw;
+    font-size: 3.5vw;
     color: #06001B;
 }
 .header > p {
+    background-image: url("https://wrcstrshr.netlify.app/logo.png");
+    background-size: 50vw;
+    background-position: center;
+    background-repeat: no-repeat;
     background-color: #fff;
     margin: 0vh 5vw;
 }
@@ -24,5 +29,11 @@ div {
     display: inline-block;
 }
 .half {
-    width: 37.47vw;
+    width: 47%;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
 }
