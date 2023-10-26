@@ -10,6 +10,14 @@ div {
     color: #fff;
     margin: auto;
     font-size: 1vw;
+    height: inherit;
+}
+.header + br + .contain ~ div {
+    margin-top: 2vh;
+}
+.contain {
+    border-radius: 0vw;
+    padding: 0vh 0vw;
 }
 .header {
     text-align: center;
@@ -26,11 +34,14 @@ div {
     background-color: #fff;
     margin: 0vh 5vw;
 }
-.il {
+.inl-b {
     display: inline-block;
 }
 .half {
     width: 47%;
+}
+.full {
+    width: 97.5%;
 }
 .left {
     float: left;
