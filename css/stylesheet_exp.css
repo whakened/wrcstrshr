@@ -19,6 +19,7 @@ div {
 }
 .header > p {
     background-image: url("https://wrcstrshr.netlify.app/logo.png");
+    background-blend-mode:difference;
     background-size: 50vw;
     background-position: center;
     background-repeat: no-repeat;
