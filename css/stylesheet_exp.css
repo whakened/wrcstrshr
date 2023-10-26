@@ -1,6 +1,7 @@
 body {
     padding: 5vh 10vw;
     background-color: #06001B; 
+    margin-bottom: 10vh;
 }
 div {
     border-radius: 1vw;
@@ -39,6 +40,14 @@ div {
 }
 .inl-b {
     display: inline-block;
+}
+.quart { 
+    width: calc(97.5% / 4 - 2.25vw);
+    margin-left: 0.75vw;
+}
+.fquart  {
+    width: calc(97.5% / 4 - 2.25vw);
+    margin-left: 0vw;
 }
 .half {
     width: 47%;
