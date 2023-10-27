@@ -2,6 +2,10 @@ body {
     padding: 5vh 10vw;
     background-color: #06001B; 
     margin-bottom: 10vh;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom, #06001B, #1B0A09)
 }
 div {
     border-radius: 1vw;
@@ -26,6 +30,12 @@ div {
     font-size: 3.5vw;
     color: #06001B;
 }
+.subheader {
+    text-align: center;
+    letter-spacing: 1vw;
+    font-size: 2vw;
+    color: #06001B;
+}
 .header > p {
     background-image: url("https://wrcstrshr.netlify.app/logo.png");
     background-blend-mode: difference;
@@ -35,8 +45,20 @@ div {
     background-color: #fff;
     margin: 0vh 5vw;
     border-radius: 5vw 1vw;
-    box-shadow: #311F54;
     text-shadow: #fff 1px 1px #fff 1px -1px #fff -1px 1px #fff -1px -1px;
+}
+.subheader > p {
+    background-image: url("https://wrcstrshr.netlify.app/logo.png");
+    background-blend-mode: difference;
+    background-size: 50vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    margin: 0vh 5vw;
+    border-radius: 5vw 1vw;
+    text-shadow: #fff 1px 1px #fff 1px -1px #fff -1px 1px #fff -1px -1px;
+    width: 75%;
+    margin-left: 12.5%;
 }
 .inl-b {
     display: inline-block;
