@@ -16,6 +16,7 @@ div {
     margin: auto;
     font-size: 1vw;
     height: inherit;
+    background-image: linear-gradient(to bottom, #311F54, #0F0626)
 }
 .header + br + .contain ~ div {
     margin-top: 2vh;
@@ -29,12 +30,15 @@ div {
     letter-spacing: 1vw;
     font-size: 3.5vw;
     color: #06001B;
+    background-color: none;
 }
 .subheader {
     text-align: center;
     letter-spacing: 1vw;
     font-size: 2vw;
     color: #06001B;
+    background-color: #ffffff00;
+    background-image: none;
 }
 .header > p {
     background-image: url("https://wrcstrshr.netlify.app/logo.png");
@@ -82,4 +86,18 @@ div {
 }
 .right {
     float: right;
+}
+.fancy-text {
+	animation: fancyText 5s ease-in-out infinite;
+	background: linear-gradient(-60deg, #bd3ce8, #bd3ce8, #f5f3f5, #bd3ce8, #f5f3f5);
+	background-size: 300%;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-weight: 500;
+}
+@keyframes fancyText {
+	0% {background-position: 50% 50%;}
+	50% {background-position: 100% 50%;}
+    100% {background-position: 200% 50%;}
 }
