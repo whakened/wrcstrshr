@@ -14,10 +14,13 @@ div {
     font-family: 'Inter', sans-serif;
     color: #fff;
     margin: auto;
-    font-size: 1vw;
+    font-size: 1rem;
     height: inherit;
     background-image: linear-gradient(to bottom, #311F54, #0F0626)
 }
+/* .hidecontent:not(:hover) > * {
+    visibility: hidden;
+} */
 .header + br + .contain ~ div {
     margin-top: 2vh;
 }
@@ -28,14 +31,14 @@ div {
 .header {
     text-align: center;
     letter-spacing: 1vw;
-    font-size: 3.5vw;
+    font-size: 3rem;
     color: #06001B;
     background-color: none;
 }
 .subheader {
     text-align: center;
     letter-spacing: 1vw;
-    font-size: 2vw;
+    font-size: 1.75rem;
     color: #06001B;
     background-color: #ffffff00;
     background-image: none;
@@ -48,7 +51,7 @@ div {
     background-repeat: no-repeat;
     background-color: #fff;
     margin: 0vh 5vw;
-    border-radius: 5vw 1vw;
+    border-radius: 5rem 1rem;
     text-shadow: #fff 1px 1px #fff 1px -1px #fff -1px 1px #fff -1px -1px;
 }
 .subheader > p {
@@ -59,7 +62,7 @@ div {
     background-repeat: no-repeat;
     background-color: #fff;
     margin: 0vh 5vw;
-    border-radius: 5vw 1vw;
+    border-radius: 5rem 1rem;
     text-shadow: #fff 1px 1px #fff 1px -1px #fff -1px 1px #fff -1px -1px;
     width: 75%;
     margin-left: 12.5%;
@@ -70,16 +73,20 @@ div {
 .quart { 
     width: calc(97.5% / 4 - 2.25vw);
     margin-left: 0.75vw;
+    overflow-wrap: break-word;
 }
 .fquart  {
     width: calc(97.5% / 4 - 2.25vw);
     margin-left: 0vw;
+    overflow-wrap: break-word;
 }
 .half {
     width: 47%;
+    overflow-wrap: break-word;
 }
 .full {
     width: 97.5%;
+    overflow-wrap: break-word;
 }
 .left {
     float: left;
