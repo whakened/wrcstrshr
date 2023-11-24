@@ -52,7 +52,7 @@ div {
     background-color: #fff;
     margin: 0vh 5vw;
     border-radius: 5rem 1rem;
-    text-shadow: #fff 1px 1px #fff 1px -1px #fff -1px 1px #fff -1px -1px;
+    text-shadow: #fff 2px 2px, #fff 2px -2px, #fff -2px 2px, #fff -2px -2px;
 }
 .subheader > p {
     background-image: url("https://wrcstrshr.netlify.app/logo.png");
@@ -63,7 +63,7 @@ div {
     background-color: #fff;
     margin: 0vh 5vw;
     border-radius: 5rem 1rem;
-    text-shadow: #fff 1px 1px #fff 1px -1px #fff -1px 1px #fff -1px -1px;
+    text-shadow: #fff 2px 2px, #fff 2px -2px, #fff -2px 2px, #fff -2px -2px;
     width: 75%;
     margin-left: 12.5%;
 }
