@@ -18,14 +18,30 @@ div {
     height: inherit;
     background-image: linear-gradient(to bottom, #311F54, #0F0626)
 }
-/* .hidecontent:not(:hover) > * {
-    visibility: hidden;
-} */
+.hidecontent > * {
+    opacity: 100%;
+    transition: opacity 0.3s;
+}
+.hidecontent:not(:hover) > * {
+    opacity: 0%;
+    transition: opacity 0.3s;
+}
+::-webkit-scrollbar {
+    background: linear-gradient(to bottom, #040014, #0F0605);
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #110B1E, #1F0B0A);
+    border-radius: 15px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, #1A112D, #3D1614);
+    border-radius: 15px;
+}
 .header + br + .contain ~ div {
     margin-top: 2vh;
 }
 .contain {
-    border-radius: 0vw;
+    border-radius: 1vw;
     padding: 0vh 0vw;
 }
 .header {
@@ -93,6 +109,23 @@ div {
 }
 .right {
     float: right;
+}
+.decotext {
+    text-align: center;
+    font-size: 3rem;
+	background: linear-gradient(to bottom, #110B1E, #3D1614);
+    background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    
+}
+.decocontain {
+    background: none;
+}
+.decotextb {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: -6rem;
 }
 .fancy-text {
 	animation: fancyText 5s ease-in-out infinite;
