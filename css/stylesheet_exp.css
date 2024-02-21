@@ -117,6 +117,7 @@ div {
     background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+    letter-spacing: -2px;
     
 }
 .decocontain {
@@ -126,6 +127,7 @@ div {
     text-align: center;
     font-size: 3rem;
     margin-top: -6rem;
+    letter-spacing: -2px;
 }
 .fancy-text {
 	animation: fancyText 5s ease-in-out infinite;
