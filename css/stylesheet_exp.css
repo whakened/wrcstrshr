@@ -18,6 +18,15 @@ div {
     height: inherit;
     background-image: linear-gradient(to bottom, #311F54, #0F0626)
 }
+#oneko {
+    border-radius: 0;
+    background-color: #311F5400;
+    padding: 0vh 0vw;
+    margin: none;
+    font-size: 10vw;
+    height: inherit;
+    background-image: none;
+}
 .hidecontent > * {
     opacity: 100%;
     transition: opacity 0.3s;
@@ -59,7 +68,7 @@ div {
     background-color: #ffffff00;
     background-image: none;
 }
-.header > p {
+.header > .header-text {
     background-image: url("https://wrcstrshr.netlify.app/logo.png");
     background-blend-mode: difference;
     background-size: 50vw;
@@ -70,7 +79,7 @@ div {
     border-radius: 5rem 1rem;
     text-shadow: #fff 2px 2px, #fff 2px -2px, #fff -2px 2px, #fff -2px -2px;
 }
-.subheader > p {
+.subheader > .header-text {
     background-image: url("https://wrcstrshr.netlify.app/logo.png");
     background-blend-mode: difference;
     background-size: 50vw;
