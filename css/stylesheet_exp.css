@@ -92,6 +92,9 @@ div {
     width: 75%;
     margin-left: 12.5%;
 }
+.fadeout {
+    background: linear-gradient(to bottom, #311F5477, #0F062600);
+}
 .inl-b {
     display: inline-block;
 }
