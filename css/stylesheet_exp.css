@@ -27,6 +27,12 @@ div {
     height: inherit;
     background-image: none;
 }
+#evil-hover:hover span {
+    display: none;
+}
+#evil-hover:hover:before {
+    content: "I HATE CSS";
+}
 .hidecontent > * {
     opacity: 100%;
     transition: opacity 0.3s;
