@@ -15,7 +15,6 @@ div {
     color: #fff;
     margin: auto;
     font-size: 1rem;
-    height: inherit;
     background-image: linear-gradient(to bottom, #311F54, #0F0626)
 }
 #oneko {
@@ -58,6 +57,27 @@ div {
 .contain {
     border-radius: 1vw;
     padding: 0vh 0vw;
+}
+.row {
+    border-radius: 1vw;
+    padding: 0vh 0vw;
+    display: flex;
+    justify-content:stretch;
+    background-image: none;
+    background: none;
+}
+.row > div {
+    flex-basis: 100%;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+.flex-item:first-child {
+    margin-left: 0vw;
+    margin-right: 0.5vw;
+}
+.flex-item:last-child{
+    margin-left: 0.5vw;
+    margin-right: 0vw;
 }
 .header {
     text-align: center;
