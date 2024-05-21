@@ -70,6 +70,8 @@ div {
     margin-left: 0.5vw;
     margin-right: 0.5vw;
     height: inherit;
+    overflow:hidden;
+    overflow-wrap:break-word;
 }
 .flex-item:first-child {
     margin-left: 0vw;
