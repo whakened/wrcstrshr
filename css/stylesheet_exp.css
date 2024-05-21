@@ -13,7 +13,6 @@ div {
     padding: 1vh 1vw;
     font-family: 'Inter', sans-serif;
     color: #fff;
-    margin: auto;
     font-size: 1rem;
     background-image: linear-gradient(to bottom, #311F54, #0F0626)
 }
@@ -70,6 +69,7 @@ div {
     flex-basis: 100%;
     margin-left: 0.5vw;
     margin-right: 0.5vw;
+    height: inherit;
 }
 .flex-item:first-child {
     margin-left: 0vw;
