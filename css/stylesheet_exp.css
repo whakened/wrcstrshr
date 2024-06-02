@@ -5,7 +5,7 @@ body {
     height: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: linear-gradient(to bottom, #06001B, #1B0A09)
+    background-image: linear-gradient(to bottom, #06001B, #1B0A09);
 }
 div {
     border-radius: 1vw;
@@ -64,6 +64,7 @@ div {
     justify-content:stretch;
     background-image: none;
     background: none;
+    line-height:200%;
 }
 .row > div {
     flex-basis: 100%;
