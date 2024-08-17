@@ -126,12 +126,12 @@
             <h3>This Website</h3>
             <p>I don't remember why I made this website originally! I just kind of have a website now. Regardless, it has beautifully detailed my progress in a way I could not do so with words.</p>
         </div>
-        <div class="inl-b full">
+        <div class="inl-b full custom-spacing">
             <p>Trying to or wish to talk with me? Consider The Following .</p>
             <p>I am difficult to speak with sometimes! I kind of suck miserably at understanding things so you Might have to give me a second occasionally.</p>
             <p>Also Please never expect me to message first. You can tell me I'm allowed to, but I still won't. I do not allow myself to do so. No, I do not know why!</p>
             <p>Despite these, I fucking love talking with people!! Doesn't have to be anything important, almost anything will get my attention.</p>
-            <p hidden>No Like Seriously Please Talk To Me . I Beg</p>
+            <p hidden>No Like Seriously Please Talk To Me . I Beg .</p>
         </div>
         <div class="row">
             <div class="flex-item">
@@ -145,7 +145,7 @@
             <p style="text-align: center;">Well fought, Soter Dave.</p>
             <p style="text-align: center;">Thank you for what you have done.</p>
         </div>
-        <div class="inl-b full decocontain">
+        <div class="inl-b full decocontain custom-spacing">
             <p style="text-align: center;">Top 100 Thinkers World Wide</p>
             <p style="text-align: center;">1. <span class="fancy-text">0zrey</span></p>
             <p style="text-align: center;">1. <span class="fancy-text">w</span></p>
@@ -190,6 +190,10 @@
                 const selectedSpacing = this.value;
                 const elements = document.querySelectorAll('.row');
                 elements.forEach(function(element) {
+                    element.style.lineHeight = selectedSpacing;
+                });
+                const elements_alt = document.querySelectorAll('.custom-spacing > p')
+                elements_alt.forEach(function(element) {
                     element.style.lineHeight = selectedSpacing;
                 });
             });
