@@ -194,5 +194,43 @@
                 });
             });
         </script>
+        <script>
+            var kp = 0;
+            document.onkeypress = function (e) {
+                e = e || window.event;
+                console.log(e.keyCode) 
+                switch(kp){ //YES !!! IF-ELSE BUT FANCY !!! FUCK YEAHJ !!! Kill me
+                    case 0:
+                        if(e.keyCode==115){
+                            kp=e.keyCode;
+                        } else {
+                            kp=0;
+                        }
+                        break; 
+                    case 115:
+                        if(e.keyCode==112){
+                            kp=e.keyCode;
+                        } else {
+                            kp=0;
+                        }
+                        break; 
+                    case 112:
+                        if(e.keyCode==105){
+                            kp=e.keyCode;
+                        } else {
+                            kp=105;
+                        }
+                        break; 
+                    case 105:
+                        if(e.keyCode==110){
+                            kp=0;
+                            document.body.style.animationName = 'spin';
+                        } else {
+                            kp=0;
+                        }
+                        break; 
+                }
+            };
+        </script>
     </body>
 </html>

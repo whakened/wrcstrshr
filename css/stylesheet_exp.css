@@ -6,6 +6,11 @@ body {
     background-attachment: fixed;
     font-family: 'Inter', sans-serif;
     background-image: linear-gradient(to bottom, #06001B, #1B0A09);
+
+    animation-name: none;
+    animation-duration: 30000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 div {
     border-radius: 1vw;
@@ -200,4 +205,27 @@ div {
 	0% {background-position: 50% 50%;}
 	50% {background-position: 100% 50%;}
     100% {background-position: 200% 50%;}
+}
+
+/* SPIN !!!! YEAJH */
+
+@-ms-keyframes spin {
+    from { -ms-transform: rotate(0deg); }
+    to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
 }
