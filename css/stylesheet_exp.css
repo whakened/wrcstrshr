@@ -1,17 +1,16 @@
 body {
     padding: 5vh 10vw;
     background-color: #06001B; 
-    margin-bottom: 10vh;
     height: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    font-family: 'Inter', sans-serif;
     background-image: linear-gradient(to bottom, #06001B, #1B0A09);
 }
 div {
     border-radius: 1vw;
     background-color: #311F54;
     padding: 1vh 1vw;
-    font-family: 'Inter', sans-serif;
     color: #fff;
     font-size: 1rem;
     background-image: linear-gradient(to bottom, #311F54, #0F0626)
@@ -64,6 +63,9 @@ div {
     justify-content:stretch;
     background-image: none;
     background: none;
+    line-height:200%;
+}
+.custom-spacing p {
     line-height:200%;
 }
 .row > div {
@@ -120,6 +122,7 @@ div {
     text-shadow: #fff 2px 2px, #fff 2px -2px, #fff -2px 2px, #fff -2px -2px;
     width: 75%;
     margin-left: 12.5%;
+    line-height: 125%;
 }
 .fadeout {
     background: linear-gradient(to bottom, #311F5477, #0F062600);
@@ -159,7 +162,6 @@ div {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
     letter-spacing: -2px;
-    
 }
 .decocontain {
     background: none;
@@ -171,8 +173,9 @@ div {
     letter-spacing: -2px;
 }
 .fancy-text {
+    color: #bd3ce8;
 	animation: fancyText 5s ease-in-out infinite;
-	background: linear-gradient(-60deg, #bd3ce8, #bd3ce8, #f5f3f5, #bd3ce8, #f5f3f5);
+	background: linear-gradient(-60deg, currentColor, currentColor, #f5f3f5, currentColor, #f5f3f5);
 	background-size: 300%;
 	-webkit-background-clip: text;
 	background-clip: text;
@@ -180,6 +183,20 @@ div {
     font-weight: 500;
 }
 @keyframes fancyText {
+	0% {background-position: 50% 50%;}
+	50% {background-position: 100% 50%;}
+    100% {background-position: 200% 50%;}
+}
+.scary-ghost-text {
+	animation: scaryGhostText 5s ease-in-out infinite;
+	background: linear-gradient(-60deg, transparent, transparent, #f5f3f5, transparent);
+	background-size: 300%;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-weight: 500;
+}
+@keyframes scaryGhostText {
 	0% {background-position: 50% 50%;}
 	50% {background-position: 100% 50%;}
     100% {background-position: 200% 50%;}
