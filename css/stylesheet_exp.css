@@ -20,6 +20,13 @@ div {
     font-size: 1rem;
     background-image: linear-gradient(to bottom, #311F54, #0F0626)
 }
+h3 {
+    color: #000;
+    border-radius: 1vw;
+    padding: 0.25vw;
+    align-self: left;
+    background: linear-gradient(to right, #fff, #fff0, #fff0)
+}
 #oneko {
     border-radius: 0;
     background-color: #311F5400;
