@@ -12,80 +12,226 @@
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
         <meta property="og:title" content="WRCSTRSHR" />
-        <meta property="og:description" content="worcestershire sauce's website. What, are you trying to see if it embeds? Yes it does, dipshit." />
+        <meta property="og:description" content="wrcstrshr... sau ce..." />
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/stylesheet.css" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="css/stylesheet_exp.css" />
         <link href="https://fonts.googleapis.com/css?display=swap&amp;family=Inter:500,500italic,300,300italic,400,400italic,700,700italic" rel="stylesheet" type="text/css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     </head>
-    <body id="body" class="c0" style="padding-top:0rem;">
-        <!-- <div id="notice" class="c1 large-container" style="align:left;margin-top:-1rem;margin-bottom:3.125rem;padding-top:0rem;width:100%;height:2.375rem;background-color:#ff0000;">
-            <button style="height:2rem;float:left;margin-top:0.575rem;margin-left:0.125rem;font-size:1.5rem;background-color:#ff0000;" onclick="document.getElementById('notice').remove();">X</button>
-            <p class="text-white-bg" style="margin-top:0.313rem;margin-bottom:0.938rem;font-size:2rem;background-color:#ff0000;color:#ff7878;">NOTICE: Going down for maintenance on Oct. 18th. Should be back online soon.</p>
-        </div> -->
-        <div class="c1 horiz-center large-container" style="width:80%;height:4.375rem;">
-            <p class="text-white-bg" style="margin-top:0.313rem;margin-bottom:0.938rem;font-size:3.125rem;">W R C S T R S H R</p>
-            <!--<img src="resources/icon.png" style="width:100px;height:100px;"> -->
+    <body>
+        <div class="header">
+            <p class="header-text" id="evil-hover"><span>W</span></p>
         </div>
-        <div class="c1 horiz-center large-container" style="padding-top:0.063rem;width:80%;height:10.9rem;">
-            <p class="text-white-bg label" style="margin-top:0.563rem;font-size:1.563rem;">OVERVIEW</p>
-            <p class="text-c5"><span class="fancy-text">WRCSTRSHR</span>, otherwise known as <span class="fancy-text">worcestershire sauce</span>, is some guy on the internet making things. Such as this website.</p>
-            <p class="text-c5">Not much can be said. Most of everything is in progress, and I am <i>stupidly</i> secretive.</p>
-            <a href="awesomeedition.html" class="text-c4" style="background-color:#181925;border:0.063rem solid #111;">Upgrade webpage now!! clikcknow  Upgrade CLICK HERE</a>
+        <br>
+        <div class="contain" style="position:relative; align-items:center">
+            <div class="subheader">
+                <p class="header-text" style="position:relative;z-index:3;">LITERALLY JUST W</p>
+            </div>
+            <img src="resources/badge.png" style="height:100px;vertical-align:middle;position:absolute;float:right;left:100%;top:50%;transform:translate(-50%,-50%);z-index:1;">
         </div>
-        <div class="c1 horiz-center large-container" style="margin-top:1rem;padding-top:0.063rem;width:80%;height:18.5rem;">
-            <p class="text-white-bg label" style="margin-top:0.563rem;font-size:1.563rem;">WHY?</p>
-            <p class="text-c5">I made this website because I was bored. Functionally, it mostly works, but probably not on mobile screens. Mobile support is horrendous to make work, and to be quite honest, I am way too lazy for that. I also just made overflows hide since thats a whole other thing. Before you mention it; yes, I am aware VW units exist. I just dont want to deal with that extra bullshit. Besides, it's my website. Fuck you.</p>
-            <p class="text-c5">I guess I also made this to finally kickstart some other stuff I've been planning to do, but that will come at a later date.</p>
-            <p class="text-c5">The sourcecode of this website is available at its respective GitHub repository, which you can find through my profile linked somewhere down below. It's a mess though. I'm putting everything together here like sticks and hot glue. I don't know <i>shit</i>. Hell, I didn't even think of this layout myself. I just stole it. I did take liberty in the palette though.</p>
-            <p class="text-c5">Also, I lied. The sourcecode is currently private because I have some stuff on here that isn't quite ready, but I don't want anyone to get to it just yet.</p>
+        <div class="inl-b full row">
+            <p>Settings For Your Viewing Pleasure .</p>
+            <label>Fonts:</label>
+            <select id="font-select">
+                <option value="Arial">Arial (sans-serif)</option>
+                <option value="Consolas">Consolas (mono, serif)</option>
+                <option value="Georgia">Georgia (serif)</option>
+                <option value="Inter" selected>Inter (sans-serif, default)</option>
+                <option value="Lucida Sans">Lucida Sans (sans-serif)</option>
+                <option value="Times New Roman">Times New Roman (serif)</option>
+            </select>
+            <br>
+            <label>Spacing:</label>
+            <select id="spacing-select">
+                <option value="100%">100%</option>
+                <option value="150%">150%</option>
+                <option value="200%" selected>200% (default)</option>
+                <option value="250%">250%</option>
+                <option value="300%">300%</option>
+            </select>
         </div>
-        <div class="c1 horiz-center large-container" style="margin-top:1rem;padding-top:0.063rem;width:80%;height:10.5rem;">
-            <p class="text-white-bg label" style="margin-top:0.563rem;font-size:1.563rem;">RELATIONS</p>
-            <p class="text-c5"><a href="https://www.roblox.com/games/3307585437/ARCANE-AREA-The-NEAT-Project-JToH">The NEAT Project</a>. A title most people seeing this website will be familiar with. A ROBLOX game from mid-2019, still kicking today. Having quit ROBLOX ages ago, it's honestly very surprising that it even still exists. I tried to kill it off once. As can be seen, that failed.</p>
-            <p class="text-c5">Oh. That's it?? Huh. That was.. disappointing. Well, uhh. I make <i>actual</i> games, too. They will be here.. soon. Hopefully. I could put some already, but they kind of suck.</p>
+        <div class="contain">
+            <div class="inl-b full">
+                <div class="subheader">
+                    <p class="header-text">announcement !?</p>
+                </div>
+                <p>HI !!!! SO basically . Insane Urgent Important Dilemna . Is it dilemna  Google says its not its actually dilemma Anyways .</p>
+                <p>as you May Have Deduced using your Awesome Perceptive Abilities . i run this website through netlify . Which is Cool it Works Obviously but Also i could switch to something like neocities or nekoweb and I don'f know about that !! Is that a good Idea !?  Are they Better ? Is it just Cooler ??/ Help . you may answer this question by Harassing me on discord my username is At The Bottom  Of The Page . ( OR email me but Ughh so much Effort !!! )</p>
+                <p>Okay Btw i made a discord server you can join it If you Want . i;m there so its pretty cool !!come talk to me <a href="https://discord.gg/jdTwcpNpFX"><span class="fancy-text">here</span></a> !!</p>
+            </div>
         </div>
-        <div class="c1 horiz-center large-container" style="margin-top:1rem;padding-top:0.063rem;width:80%;height:20rem;">
-            <p class="text-white-bg label" style="margin-top:0.563rem;font-size:1.563rem;">CONNECTIONS</p>
-            <h1><a class="text-c5 youtube-link"  href="https://www.youtube.com/channel/UCxNP0KpaPKynmpSRry8D63Q">YouTube - worcestershire sauce</a></h1>
-            <h1><a class="text-c5 github-link" href="https://github.com/whakened">GitHub - whakened</a></h1>
-            <h1><a class="text-c5 twitch-link" href="https://www.twitch.tv/whakened">Twitch - whakened</a></h1>
-            <h1><a class="text-c5 twitter-link" href="https://twitter.com/whakened">Twitter - whakened</a></h1>
+        <div class="row">
+            <div class="flex-item">
+                <p>Site last updated <span class="fancy-text" id="automatic-repo-update-detector-magic">???</span></p>
+                <p>Last commit title "<span class="fancy-text" id="automatic-repo-commit-detector-magic">???</span>"</p>
+            </div>
+            <div class="flex-item">
+                <p>If you have seen my casual typing style, you may have noticed it is very odd, and consequently wondered what the reason for it is. I am going out of the way to explain it in-depth <a href="essay.html"><span class="fancy-text">here</span></a>! Please Read It I Like Being Understood</p>
+            </div>
         </div>
-        <div class="c1 horiz-center large-container" style="margin-top:1rem;padding-top:0.063rem;width:80%;height:14rem;background: rgba(0,0,0,0);">
-            <p class="text-c5 label" style="margin-top:0.563rem;font-size:1.563rem;">CREDITS</p>
-            <table class="text-c2 thinspaced" style="width:100%;">
-                <tr>
-                    <td width="33%">PROGRAMMING - Me</td>
-                    <td width="33%">PALETTE - Me</td>
-                    <td width="33%">DESIGN - Me</td>
-                </tr>
-                <tr style="height:5rem;">
-                    <td width="33%">LAYOUT - Me</td>
-                    <td width="33%">STYLE SHEETS - Me</td>
-                    <td width="33%">CREDITS - Me</td>
-                </tr>
-                <tr>
-                    <td width="33%">FRONTEND - Me</td>
-                    <td width="33%">BACKEND - Me</td>
-                    <td width="33%">WHATEVER ELSE - Me</td>
-                </tr>
-                <tr>
-                    <td width="33%"></td>
-                    <td width="33%">(the joke is that I did everything)</td>
-                    <td width="33%"></td>
-                </tr>
-            </table>
+        <div class="inl-b full">
+            <div class="subheader">
+                <p class="header-text">ABOUT</p>
+            </div>
         </div>
-        <div class="c1 horiz-center large-container" style="margin-top:1rem;padding-top:0.063rem;width:80%;height:14rem;">
-            <h2 class="text-c5">Contact me:</h2>
-            <p class="text-c5" style="margin-bottom:0rem;">Email: <a href="mailto:whakened@gmail.com">whakened@gmail.com</a> Discord: <span class="fancy-text">worcestershire sauce</span><span class="text-c4">#8444</span></p>
-            <p class="text-c5 thin" style="margin-top:0rem;">Preferably do message me via Discord, however please do email me if ever necessary.</p>
-            <h2 class="footer-text" style="margin-bottom:0rem;">ALL RIGHTS RESERVED?? I GUESS??</h2>
-            <h3 class="footer-text" style="margin-bottom:0rem;margin-top:0rem;">OR WELL NOT REALLY BECAUSE IT COSTS MONEY TO COPYRIGHT</h3>
-            <h4 class="footer-text" style="margin-top:0rem;">WHATEVER I FEEL LIKE ITS SUPPOSED TO BE THERE ANYWAYS</h4>
+        <div class="row">
+            <div class="flex-item">
+                <div class="subheader">
+                    <p class="header-text">WHO?</p>
+                </div>
+                <p><span class="fancy-text">w</span>. I'm w. Formerly worcestershire sauce, even more-so formerly whakened. I came up with the original username maybe around 2016, and it was created by me just.. hitting my keyboard, and then adding vowels so it can be said. In late 2019, I found myself as worcestershire sauce as I had been shuffling through food items as a joke; and then never found anything to replace it. It stuck, and remained until 2024, where I now just call myself w.</p>
+            </div>
+            <div class="flex-item">
+                <div class="subheader">
+                    <p class="header-text">WHY?</p>
+                </div>
+                <p>I decided to call myself w as it was very simple; it's not confusing, it's easy to type, and it just looks nice. I never directly decided this, however; I just shortened it as a joke and then it stuck, much like worcestershire sauce had stuck. You'll most often see me still using one of my previous usernames, although if you refer to me by just w, it would be appreciated.</p>
+            </div>
         </div>
+        <div class="row">
+            <div class="flex-item">
+                <div class="subheader">
+                    <p class="header-text">WHAT?</p>
+                </div>
+                <p>"What" as in like, what do I do. Not enough room up there for that though. Anyways. I do a lot of shit, but nothing consistently. Primarily I just make games or random programs, of which some can be found on this website. As of recently, music as well, using FamiTracker. I find the constraints there to be entertaining to work with and around. I also just really don't want to have to learn something like FL StuNvm actually I learned it like a week or two ago</p>
+            </div>
+            <div class="flex-item">
+                <div class="subheader">
+                    <p class="header-text">REALLY, WHO?</p>
+                </div>
+                <p>Me? Myself? I don't know. Assuming you don't know me in person, you'll have to figure out most about me by talking to me. I'm typically very open to questions, but I am against publicly detailing myself here. I don't exactly adhere to a single view of me, so to one I may seem an entirely different person to another.</p>
+            </div>
+        </div>
+        <div class="inl-b full custom-spacing">
+            <div class="subheader">
+                <p class="header-text">STUFF I DO</p>
+            </div>
+            <p>Here's some shit that I do or have done. I was gonna title this section something like "projects, connections, relations" but it was Too Long.</p>
+            <p>also i promise i'll made this section look nicer later i just Really Dont Wanna ....</p>
+            <h3>Experience</h3>
+            <p>I've worked with programming for at last 6 years, potentially up to 8 years or something. I don't know, I haven't kept track. Unfortunately, I am just as terrible as I was when I began.</p>
+            <p>I typically revolve around gamedev, however I find it very difficult to keep my attention on one project for long enough to have something playable. By now I have not made anything in so long that I simply refuse to try again, so I am trying to get past that first before I try anything else.</p>
+            <h3>The NEAT Project</h3>
+            <p>Pretty much the only thing I'm known for is ironically one of the things I treat so poorly. If you somehow are here by other means, TNP is a game I made on ROBLOX over 5 years ago by now. I ceased any effective production on it by I believe sometime around 2021, with me not soon after being determined to not dare touch the platform again. Yet still, it is in my possession to the disdain of many. I don't quite get why I'm still supported by TNP after having thoroughly ignored it for so long.</p>
+            <p>I've made efforts to return occasionally, with absolutely none being effective whatsoever. Further details on this topic, while I would love to talk about, are not something I believe is worth detailing publicly.</p>
+            <h3>Actual Gamedev</h3>
+            <p>I've been working at this for a couple years. I have yet to publicly share really anything I have made due to the fact that most of my work just not really that good. Maybe that will change someday, maybe not.</p>
+            <h3>Random Shit</h3>
+            <p>Just completely random shit is something I used to love doing. I used to make shit for the sole purpose of having fun. I used to make games on fucking calculators of all things, I made a shitty program that made HTML documents from a rudimentary command-line GUI using LUA, I even tried making an entire chess engine from scratch. I don't do much of this anymore unfortunately.</p>
+            <h3>This Website</h3>
+            <p>I don't remember why I made this website originally! I just kind of have a website now. Regardless, it has beautifully detailed my progress in a way I could not do so with words.</p>
+        </div>
+        <div class="inl-b full custom-spacing">
+            <p>Trying to or wish to talk with me? Consider The Following .</p>
+            <p>I am difficult to speak with sometimes! I kind of suck miserably at understanding things so you Might have to give me a second occasionally.</p>
+            <p>Also Please never expect me to message first. You can tell me I'm allowed to, but I still won't. I do not allow myself to do so. No, I do not know why!</p>
+            <p>Despite these, I fucking love talking with people!! Doesn't have to be anything important, almost anything will get my attention.</p>
+            <p hidden>No Like Seriously Please Talk To Me . I Beg .</p>
+        </div>
+        <div class="row">
+            <div class="flex-item">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1GvPJZ5FViC3XLOrgk7aJn?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+            <div class="flex-item">
+                <p>i Do not think anyone cares for what I have to say about my music taste but in the desire I still have to showcase it, here's a playlist I Very Delicately put together with some shit I randomly pulled from my library. Enjoy !! Its All Awful .</p>
+            </div>
+        </div>
+        <div class="inl-b full fadeout">
+            <p style="text-align: center;">Well fought, Soter Dave.</p>
+            <p style="text-align: center;">Thank you for what you have done.</p>
+        </div>
+        <div class="inl-b full decocontain custom-spacing">
+            <p style="text-align: center;">Top 100 Thinkers World Wide</p>
+            <p style="text-align: center;">1. <span class="fancy-text">0zrey</span></p>
+            <p style="text-align: center;">1. <span class="fancy-text">w</span></p>
+            <p style="text-align: center;">1. <span class="fancy-text">Seadrium</span></p>
+            <p style="text-align: center;">(All Tied .)</p>
+            <p style="text-align: center;">Other 97 Are Not Real</p>
+            <p style="text-align: center;" class="scary-ghost-text">SCARY GHOST TEXT</p>
+        </div>
+        <div class="decocontain row">
+            <div class="flex-item decocontain">
+                <p style="text-align: center;">❤ Made with <span class="fancy-text" style="color:#f00;">HATRED</span> and <span class="fancy-text" style="color:#f00;">ANGER</span> by w ❤</p>
+            </div>
+            <div class="flex-item decocontain">
+                <p style="text-align: center;">Contacts - email: <a href="mailto:whakened@gmail.com"><span class="fancy-text">whakened@gmail.com</span></a> discord: <span class="fancy-text">worcestershiresauce</span></p>
+            </div>
+            <div class="flex-item decocontain">
+                <p style="text-align: center;">★☆☆☆☆ - "worst website i've ever seen"</p>
+            </div>
+        </div>
+        <script>
+            async function getDateOfLastUpdate() {
+                const response = await fetch(`https://api.github.com/repos/whakened/wrcstrshr`);
+                const repoData = await response.json();
+                const lastUpdated = new Date(repoData.updated_at).toLocaleString();
+                document.getElementById('automatic-repo-update-detector-magic').textContent = lastUpdated;
+            }
+            getDateOfLastUpdate();
+            async function getLastCommit() {
+                const response = await fetch(`https://api.github.com/repos/whakened/wrcstrshr/commits`);
+                const commitData = await response.json();
+                const lastCommit = commitData[0].commit.message;
+                document.getElementById('automatic-repo-commit-detector-magic').textContent = lastCommit;
+            }
+            getLastCommit();
+        </script>
+        <script>
+            document.getElementById('font-select').addEventListener('change', function () {
+                const selectedFont = this.value;
+                document.body.style.fontFamily = selectedFont;
+            });
+            document.getElementById('spacing-select').addEventListener('change', function () {
+                const selectedSpacing = this.value;
+                const elements = document.querySelectorAll('.row');
+                elements.forEach(function(element) {
+                    element.style.lineHeight = selectedSpacing;
+                });
+                const elements_alt = document.querySelectorAll('.custom-spacing > p')
+                elements_alt.forEach(function(element) {
+                    element.style.lineHeight = selectedSpacing;
+                });
+            });
+        </script>
+        <script>
+            var kp = 0;
+            document.onkeypress = function (e) {
+                e = e || window.event;
+                switch(kp){ //YES !!! IF-ELSE CHAINS BUT FANCY !!! FUCK YEAHJ !!! Kill me
+                    case 0:
+                        if(e.keyCode==115){
+                            kp=e.keyCode;
+                        } else {
+                            kp=0;
+                        }
+                        break; 
+                    case 115:
+                        if(e.keyCode==112){
+                            kp=e.keyCode;
+                        } else {
+                            kp=0;
+                        }
+                        break; 
+                    case 112:
+                        if(e.keyCode==105){
+                            kp=e.keyCode;
+                        } else {
+                            kp=105;
+                        }
+                        break; 
+                    case 105:
+                        if(e.keyCode==110){
+                            kp=0;
+                            document.body.style.animationName = 'spin';
+                        } else {
+                            kp=0;
+                        }
+                        break; 
+                }
+            };
+        </script>
     </body>
 </html>
