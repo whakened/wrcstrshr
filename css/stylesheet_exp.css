@@ -77,6 +77,9 @@ h3 {
     background: none;
     line-height:200%;
 }
+ul {
+    line-height:200%;
+}
 .custom-spacing p {
     line-height:200%;
 }
@@ -189,8 +192,9 @@ h3 {
 }
 .fancy-text {
     color: #bd3ce8;
+    --glare: #f5f5f5;
 	animation: fancyText 5s ease-in-out infinite;
-	background: linear-gradient(-60deg, currentColor, currentColor, #f5f3f5, currentColor, #f5f3f5);
+	background: linear-gradient(-60deg, currentColor, currentColor, var(--glare), currentColor, var(--glare));
 	background-size: 300%;
 	-webkit-background-clip: text;
 	background-clip: text;
