@@ -21,11 +21,19 @@ div {
     background-image: linear-gradient(to bottom, #311F54, #0F0626)
 }
 h3 {
-    color: #000;
+    color: #fff;
     border-radius: 1vw;
     padding: 0.25vw;
     align-self: left;
-    background: linear-gradient(to right, #fff, #fff0, #fff0)
+    background: linear-gradient(to right, #fff, #fff0, #fff0);
+    background-image: url("https://wrcstrshr.netlify.app/logo.png");
+    background-blend-mode: difference;
+    background-size: 50vw;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: #ffffffaa;
+    text-shadow: #000 2px 2px, #000 2px -2px, #000 -2px 2px, #000 -2px -2px;
+    width: 25%;
 }
 #oneko {
     border-radius: 0;
