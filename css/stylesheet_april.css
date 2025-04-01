@@ -1,0 +1,193 @@
+body {
+    padding: 5vh 10vw;
+    background-color: #011; 
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Consolas', sans-serif;
+    background-image: linear-gradient(to bottom, #011, #120);
+
+    animation-name: spin;
+    animation-duration: 15000000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+div {
+    background-color: #135;
+    color: #fff;
+    font-size: 1rem;
+    background-image: linear-gradient(to bottom, #135, #002)
+}
+h3 {
+    color: #fff;
+    padding: 0.25vw;
+    align-self: left;
+    background: linear-gradient(to right, #fff, #fff0, #fff0);
+    background-image: url("https://wrcstrshr.netlify.app/logo.png");
+    background-blend-mode: difference;
+    background-size: 50vw;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: #ffffffaa;
+    text-shadow: #000 2px 2px, #000 2px -2px, #000 -2px 2px, #000 -2px -2px;
+    width: 25%;
+}
+#oneko {
+    border-radius: 0;
+    background-color: #311F5400;
+    margin: none;
+    font-size: 10vw;
+    height: inherit;
+    background-image: none;
+}
+#evil-hover:hover span {
+    display: none;
+}
+#evil-hover:hover:before {
+    content: "I HATE CSS";
+}
+.hidecontent > * {
+    opacity: 100%;
+    transition: opacity 0.3s;
+}
+.hidecontent:not(:hover) > * {
+    opacity: 0%;
+    transition: opacity 0.3s;
+}
+::-webkit-scrollbar {
+    background: linear-gradient(to bottom, #001, #000);
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #101, #100);
+    border-radius: 15px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, #112, #311);
+    border-radius: 15px;
+}
+.header + br + .contain ~ div {
+}
+.contain {
+}
+.row {
+    display: flex;
+    justify-content:stretch;
+    background-image: none;
+    background: none;
+    line-height:200%;
+}
+ul {
+    line-height:200%;
+}
+.custom-spacing p {
+    line-height:200%;
+}
+.row > div {
+    flex-basis: 100%;
+    height: inherit;
+    overflow:hidden;
+    overflow-wrap:break-word;
+}
+.flex-item:first-child {
+}
+.flex-item:last-child{
+}
+.header {
+    text-align: left;
+    letter-spacing: 15vw;
+    font-size: 3rem;
+    color: #06001B;
+    background-color: none;
+}
+.subheader {
+    text-align: left;
+    letter-spacing: 1vw;
+    font-size: 1.75rem;
+    color: #001;
+    background-color: #ffffff00;
+    background-image: none;
+}
+.header > .header-text {
+    background-image: url("https://wrcstrshr.netlify.app/logo.png");
+    background-blend-mode: difference;
+    background-size: 50vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    margin: 0vh 5vw;
+    border-radius: 5rem 1rem;
+    text-shadow: #fff 2px 2px, #fff 2px -2px, #fff -2px 2px, #fff -2px -2px;
+}
+.subheader > .header-text {
+    background-image: url("https://wrcstrshr.netlify.app/logo.png");
+    background-blend-mode: difference;
+    background-size: 50vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    margin: 0vh 5vw;
+    border-radius: 5rem 1rem;
+    text-shadow: #fff 2px 2px, #fff 2px -2px, #fff -2px 2px, #fff -2px -2px;
+    width: 75%;
+    margin-left: 12.5%;
+    line-height: 125%;
+}
+.decotext {
+    text-align: center;
+    font-size: 3rem;
+	background: linear-gradient(to bottom, #110B1E, #3D1614);
+    background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    letter-spacing: -2px;
+}
+.decocontain {
+    background: none;
+}
+.decotextb {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: -6rem;
+    letter-spacing: -2px;
+}
+.fancy-text {
+    color: #b3e;
+    --glare: #fff;
+	animation: fancyText 5s ease-in-out infinite;
+	background: linear-gradient(-60deg, currentColor, currentColor, var(--glare), currentColor, var(--glare));
+	background-size: 300%;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-weight: 500;
+}
+@keyframes fancyText {
+	0% {background-position: 50% 50%;}
+	50% {background-position: 100% 50%;}
+    100% {background-position: 200% 50%;}
+}
+.scary-ghost-text {
+	animation: scaryGhostText 5s ease-in-out infinite;
+	background: linear-gradient(-60deg, transparent, transparent, #f5f3f5, transparent);
+	background-size: 300%;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-weight: 500;
+}
+@keyframes scaryGhostText {
+	0% {background-position: 50% 50%;}
+	50% {background-position: 100% 50%;}
+    100% {background-position: 200% 50%;}
+}
+
+/* SPIN !!!! YEAJH */
+
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from { transform:rotate(0deg); }
+    to { transform:rotate(360deg); }
+}
